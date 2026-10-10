@@ -1,10 +1,5 @@
 # KytyPS5 — fork di studio (BalduPS5_)
 
-> BOZZA. Questo file è pensato per diventare `CLAUDE.md` nella radice del repository
-> (`git mv MyDocs/CLAUDE-draft.md CLAUDE.md`). Finché resta qui dentro NON viene caricato
-> all'avvio: Claude Code legge automaticamente solo `./CLAUDE.md`, `./.claude/CLAUDE.md`,
-> `./CLAUDE.local.md` e `~/.claude/CLAUDE.md`.
-
 ## Scopo del repository e ruolo dell'agente
 
 - Fork personale di [KytyPS5](https://github.com/KytyPS5/KytyPS5), emulatore PS5 in C++20 (HLE, Vulkan 1.3).
