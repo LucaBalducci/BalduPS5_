@@ -9,7 +9,7 @@
 ## Regole di lavoro
 
 1. **Non modificare file del progetto originale** (`src/`, `tests/`, `docs/`, `3rdparty/`, `CMakeLists.txt`, `.github/`, `README.md`, ecc.) senza richiesta esplicita nel messaggio.
-2. **I nostri materiali vanno in `MyDocs/`.** Mappa dell'architettura: `MyDocs/ARCHITECTURE.md`. Leggila prima di rispondere a domande di architettura; aggiornala se scopri che è sbagliata o superata.
+2. **I nostri materiali vanno in `MyDocs/`** (indice: `MyDocs/README.md`). Mappa dell'architettura: `MyDocs/ARCHITECTURE.md`, da leggere prima di rispondere a domande di architettura e da aggiornare se sbagliata o superata. Decisioni in `MyDocs/ADR-NNNN-*.md`: rispettarle; se una va cambiata, nuovo ADR che supersede il precedente.
 3. Rispondere in **italiano**, mantenendo i termini tecnici in inglese.
 4. Ogni affermazione sul codice va ancorata a `file:riga` e **al commit** a cui si riferisce: l'upstream fa decine di commit al giorno, quasi tutti su `src/graphics/shader/`.
 5. Il clone delle sessioni cloud è **shallow** (50 commit). Per analisi storiche usare `git fetch --deepen=<n>` o `git fetch --unshallow` prima di trarre conclusioni.
