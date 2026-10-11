@@ -144,7 +144,7 @@ Cosa andrà rivisto:
 
 1. [ ] Compilare e avviare KytyPS5 in locale con un gioco legalmente posseduto (percorso Linux senza Qt in CLAUDE.md, oppure Windows da README).
 2. [ ] Provare AnyPS5 sullo stesso gioco e annotare esito e differenze in `MyDocs/`.
-3. [ ] Scrivere `MyDocs/VISIONE-CONSOLE.md`: cosa fa il guscio, su quale hardware, con quale interfaccia, quali motori.
+3. [x] Scrivere la carta di progetto: [PROGETTO-CONSOLE.md](PROGETTO-CONSOLE.md) (cosa fa il guscio, su quale hardware, con quale interfaccia, quali motori). Dove sviluppare il tutto: [ADR-0002](ADR-0002-struttura-repository.md).
 4. [ ] Definire il contratto guscio ↔ motori (riga di comando, cartelle, esito) in un documento breve.
 5. [ ] Prototipo del guscio: una lista giochi che lancia i due motori, con scelta del motore per titolo.
 6. [ ] Rivalutare questo ADR tra tre mesi o alla prima release stabile di AnyPS5.

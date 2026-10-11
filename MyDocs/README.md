@@ -10,8 +10,10 @@ Cartella **nostra**, separata dal progetto upstream KytyPS5. Qui vanno analisi, 
 | [ARCHITECTURE.md](ARCHITECTURE.md) | Mappa tecnica completa: modello di emulazione, misure, moduli, flussi, sottosistemi, threading, test/CI, decisioni di design, rischi, guida alla lettura, glossario | Sviluppatori | Attuale, al commit `59183db` |
 | [CONFRONTO-AnyPS5.md](CONFRONTO-AnyPS5.md) | KytyPS5 vs AnyPS5: stessa idea, due confezioni; differenze tecniche; maturità; implicazioni | Tutti | Snapshot 2026-10-10 |
 | [ADR-0001-ibrido-anyps5-kyty.md](ADR-0001-ibrido-anyps5-kyty.md) | Decisione: non unire i due progetti nel codice; console multi-runtime con motori intatti | Decisori | Proposed |
+| [ADR-0002-struttura-repository.md](ADR-0002-struttura-repository.md) | Decisione: repository separato per il prodotto, motori come dipendenze fissate, fork solo per studio e patch | Decisori | Proposed |
+| [PROGETTO-CONSOLE.md](PROGETTO-CONSOLE.md) | Carta di progetto: obiettivo, cosa costruiamo e cosa usiamo, confini, requisiti, vincoli legali, criteri di successo, tappe, rischi | Tutti | Bozza |
 
-Prossimi documenti previsti (vedi action items di ADR-0001): `VISIONE-CONSOLE.md`, contratto guscio ↔ motori, matrice di compatibilità per gioco e motore.
+Prossimi documenti previsti (vedi action items di ADR-0001 e ADR-0002): contratto guscio ↔ motori, matrice di compatibilità per gioco e motore. Quando nascerà il repository del prodotto (ADR-0002), questa cartella migrerà lì e qui resterà solo un rimando.
 
 ## Convenzioni
 
